@@ -1,0 +1,87 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body::after {
+    content: "";
+    background: url(background.jpg);
+    opacity: 0.25;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+  
+  
+  header {
+      background-color: #FFE17F ;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-bottom: 30px;
+      float: center;
+      font-size: 30px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+      border: 3px solid green;
+      display: block;
+  }
+  nav {
+      float: left;
+      width: 100%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+  }
+  nav ul {
+      padding: 20 px;
+      float: center;
+      border-bottom: 30 px;
+      list-style-type: none;
+      display: inline-block;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+  a {
+      color: ;
+  }
+  section {
+      width: 73%;
+      display: inline-block;
+      float: left;
+      font-size: 40px;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color: red;
+      padding:25 px;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color: blue;
+      color: white;
+      clear: both;
+      display: block;
+  }
